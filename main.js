@@ -31,9 +31,9 @@ startBtn.addEventListener("click", function () {
   let centerNumber = 0;
   let rightNumber = 0;
 
-  leftIntervalId = setInterval(slotNum(leftNum, leftNumber), 1000);
-  centerIntervalId = setInterval(slotNum(centerNum, centerNumber), 1000);
-  rightIntervalId = setInterval(slotNum(rightNum, rightNumber), 1000);
+  leftIntervalId = setInterval(slotNum(leftNum, leftNumber), 100);
+  centerIntervalId = setInterval(slotNum(centerNum, centerNumber), 100);
+  rightIntervalId = setInterval(slotNum(rightNum, rightNumber), 100);
 
   startBtn.addEventListener("click", function () {
     stopInterval(leftIntervalId);
