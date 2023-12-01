@@ -1,0 +1,39 @@
+body{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+.slotNum {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+p {
+    list-style: none;
+    font-size: 80px;
+    margin: 20px;
+}
+
+input {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-top: 40px;
+}
+
+.startBtn {
+    background-color: rgb(246, 158, 169)	;
+    color: #fff;
+    border: 0;
+    width: 150px;
+}
